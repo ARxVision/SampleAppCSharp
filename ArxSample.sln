@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArxSample", "app\ArxSample.csproj", "{113F6705-C777-4BB6-A5AE-181801898301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArxBindings", "Bindings\ArxBindings.csproj", "{58F72E80-0841-4A3F-9D2B-35D1676524BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{113F6705-C777-4BB6-A5AE-181801898301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113F6705-C777-4BB6-A5AE-181801898301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113F6705-C777-4BB6-A5AE-181801898301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113F6705-C777-4BB6-A5AE-181801898301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F72E80-0841-4A3F-9D2B-35D1676524BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F72E80-0841-4A3F-9D2B-35D1676524BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F72E80-0841-4A3F-9D2B-35D1676524BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F72E80-0841-4A3F-9D2B-35D1676524BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
