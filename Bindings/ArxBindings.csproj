@@ -9,5 +9,8 @@
   <ItemGroup>
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+    <NativeReference Include="camera.xcframework">
+      <Kind>Framework</Kind>
+    </NativeReference>
   </ItemGroup>
 </Project>

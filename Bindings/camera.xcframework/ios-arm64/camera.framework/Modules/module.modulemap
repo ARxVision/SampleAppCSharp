@@ -1,0 +1,4 @@
+framework module camera {
+  header "camera-Swift.h"
+  requires objc
+}
