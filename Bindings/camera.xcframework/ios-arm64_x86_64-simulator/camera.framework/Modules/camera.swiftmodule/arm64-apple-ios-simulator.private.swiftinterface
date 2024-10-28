@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios17.3-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name camera
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios17.3-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name camera
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Combine
 import Foundation
@@ -45,7 +45,6 @@ public protocol AudioDeviceConnectionDelegate : AnyObject {
   public func checkWiredHeadphonesConnection()
   public func startMonitoring()
   public func stopMonitoring()
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -75,7 +74,7 @@ public protocol AudioDeviceConnectionDelegate : AnyObject {
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [camera.ArxButton]
   public typealias RawValue = Swift.Int
-  nonisolated public static var allCases: [camera.ArxButton] {
+  public static var allCases: [camera.ArxButton] {
     get
   }
   public var rawValue: Swift.Int {
@@ -109,7 +108,7 @@ public protocol AudioDeviceConnectionDelegate : AnyObject {
   required public init(from decoder: any Swift.Decoder) throws
 }
 @objc public class ArxHeadsetHandler : ObjectiveC.NSObject {
-  public init(delegate: any camera.ArxHeadsetApi)
+  @objc public init(delegate: any camera.ArxHeadsetApi)
   @objc public func connect()
   @objc public func disconnect()
   @objc deinit

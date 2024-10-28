@@ -6,31 +6,31 @@
 	<dict>
 		<key>Headers/camera-Swift.h</key>
 		<data>
-		Wi3sb5NgVBWbpd8YY6sU30rnC0c=
+		v0lg7wtSXY/fPIl18rowBUpw7eg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VQUhvJJfs0idP8NT4W8frziTi+o=
+		jD4a6YhH2dcGGJ2cTD1PhPrdfUA=
 		</data>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		HnKQCR4gsMc8uS0eKVr0+Z8bTug=
+		53vJarPq+GRAESy7mNgtKBgxEXk=
 		</data>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		fGfgaZH5azl55GWvAY9G29CaA5E=
+		fOeS4+DtlgqgYJOme+T38HGSyBk=
 		</data>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		uiTsH5WuwwhnLKUUqYlVdXPYTc8=
+		qLqaHzUDzIVZiRU0GLg7BTujYN4=
 		</data>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		fGfgaZH5azl55GWvAY9G29CaA5E=
+		fOeS4+DtlgqgYJOme+T38HGSyBk=
 		</data>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jyPPUj7vZZF24opmarWXprCiowY=
+		I0L58TWewOMTgOn899gpo1+V3N4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,42 +43,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Jyoncgm2DvxzXcagjYuzflXLtJVzi/ve90AGT7o/fE=
+			ZNxC0nVqSU2F9xemkGP2WSG5RsW6OJXdbscjvgRv1/0=
 			</data>
 		</dict>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m9n/zyef3ovLJEjY2phv7fpMfe4CLJIztL2R9+7B9OI=
+			hzQqS1PHzaElEZSFTNy01PuEQGxLZyXlizWC6161kuE=
 			</data>
 		</dict>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AAE/KLRmv5HZ/X14KHS/jqycxP7dDD4frypbMgPRx8c=
+			6Es4EfmWgqvnmGnq/0qVKCA5EfxNVn6L6CFRHLMzhVQ=
 			</data>
 		</dict>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s+K0nERmpKj+NnV2TnIQJdTUaC5FdHViJqHruUs07s0=
+			4YJdFt4V9xPgIR97bkodskEKri18FnlpoNL3VFfeY+k=
 			</data>
 		</dict>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AAE/KLRmv5HZ/X14KHS/jqycxP7dDD4frypbMgPRx8c=
+			6Es4EfmWgqvnmGnq/0qVKCA5EfxNVn6L6CFRHLMzhVQ=
 			</data>
 		</dict>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f+S+zrTr0+6lB6EjZvPyqAiYkO7hdIpnDxBj5dshw0Y=
+			/+9cWmW7TpiKQoJGwXnR9+8clK+O3N4Yo540jbjPmnQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
