@@ -145,7 +145,7 @@ namespace Arx
 		[Export ("width")]
 		nint Width { get; }
 
-		/https://dev.azure.com/msresearch/SeeingAI/_settings// @property (readonly, nonatomic) NSInteger height;
+		// @property (readonly, nonatomic) NSInteger height;
 		[Export ("height")]
 		nint Height { get; }
 
