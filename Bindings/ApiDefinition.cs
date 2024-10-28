@@ -1,67 +1,157 @@
-namespace ArxBindings;
+using System;
+using Foundation;
+using ObjCRuntime;
+using UIKit;
 
-// The first step to creating a binding is to add your native framework ("MyLibrary.xcframework")
-// to the project.
-// Open your binding csproj and add a section like this
-// <ItemGroup>
-//   <NativeReference Include="MyLibrary.xcframework">
-//     <Kind>Framework</Kind>
-//     <Frameworks></Frameworks>
-//   </NativeReference>
-// </ItemGroup>
-//
-// Once you've added it, you will need to customize it for your specific library:
-//  - Change the Include to the correct path/name of your library
-//  - Change Kind to Static (.a) or Framework (.framework/.xcframework) based upon the library kind and extension.
-//    - Dynamic (.dylib) is a third option but rarely if ever valid, and only on macOS and Mac Catalyst
-//  - If your library depends on other frameworks, add them inside <Frameworks></Frameworks>
-// Example:
-// <NativeReference Include="libs\MyTestFramework.xcframework">
-//   <Kind>Framework</Kind>
-//   <Frameworks>CoreLocation ModelIO</Frameworks>
-// </NativeReference>
-// 
-// Once you've done that, you're ready to move on to binding the API...
-//
-// Here is where you'd define your API definition for the native Objective-C library.
-//
-// For example, to bind the following Objective-C class:
-//
-//     @interface Widget : NSObject {
-//     }
-//
-// The C# binding would look like this:
-//
-//     [BaseType (typeof (NSObject))]
-//     interface Widget {
-//     }
-//
-// To bind Objective-C properties, such as:
-//
-//     @property (nonatomic, readwrite, assign) CGPoint center;
-//
-// You would add a property definition in the C# interface like so:
-//
-//     [Export ("center")]
-//     CGPoint Center { get; set; }
-//
-// To bind an Objective-C method, such as:
-//
-//     -(void) doSomething:(NSObject *)object atIndex:(NSInteger)index;
-//
-// You would add a method definition to the C# interface like so:
-//
-//     [Export ("doSomething:atIndex:")]
-//     void DoSomething (NSObject object, nint index);
-//
-// Objective-C "constructors" such as:
-//
-//     -(id)initWithElmo:(ElmoMuppet *)elmo;
-//
-// Can be bound as:
-//
-//     [Export ("initWithElmo:")]
-//     NativeHandle Constructor (ElmoMuppet elmo);
-//
-// For more information, see https://aka.ms/ios-binding
-//
+namespace Arx
+{
+	// @protocol ArxHeadsetApi
+	/*
+  Check whether adding [Model] to this declaration is appropriate.
+  [Model] is used to generate a C# class that implements this protocol,
+  and might be useful for protocols that consumers are supposed to implement,
+  since consumers can subclass the generated class instead of implementing
+  the generated interface. If consumers are not supposed to implement this
+  protocol, then [Model] is redundant and will generate code that will never
+  be used.
+*/[Protocol (Name = "_TtP6camera13ArxHeadsetApi_")]
+	interface ArxHeadsetApi
+	{
+		// @required -(void)onDeviceConnectionErrorWithError:(NSError * _Nonnull)error;
+		[Abstract]
+		[Export ("onDeviceConnectionErrorWithError:")]
+		void OnDeviceConnectionErrorWithError (NSError error);
+
+		// @required -(void)onDevicePhotoReceivedWithImage:(UIImage * _Nonnull)image frameDescriptor:(Resolution * _Nonnull)frameDescriptor;
+		[Abstract]
+		[Export ("onDevicePhotoReceivedWithImage:frameDescriptor:")]
+		void OnDevicePhotoReceivedWithImage (UIImage image, Resolution frameDescriptor);
+
+		// @required -(void)onButtonClickedWithButton:(enum ArxButton)button isLongPress:(BOOL)isLongPress;
+		[Abstract]
+		[Export ("onButtonClickedWithButton:isLongPress:")]
+		void OnButtonClickedWithButton (ArxButton button, bool isLongPress);
+
+		// @required -(void)onDisconnect;
+		[Abstract]
+		[Export ("onDisconnect")]
+		void OnDisconnect ();
+
+		// @required -(void)onConnected;
+		[Abstract]
+		[Export ("onConnected")]
+		void OnConnected ();
+
+		// @required -(void)onImuDataUpdateWithImuData:(ImuData * _Nonnull)imuData;
+		[Abstract]
+		[Export ("onImuDataUpdateWithImuData:")]
+		void OnImuDataUpdateWithImuData (ImuData imuData);
+	}
+
+	// @interface ArxHeadsetHandler : NSObject
+	[BaseType (typeof(NSObject), Name = "_TtC6camera17ArxHeadsetHandler")]
+	[DisableDefaultCtor]
+	interface ArxHeadsetHandler
+	{
+		// -(void)connect;
+		[Export ("connect")]
+		void Connect ();
+
+		// -(void)disconnect;
+		[Export ("disconnect")]
+		void Disconnect ();
+	}
+
+	// @interface ButtonData : NSObject
+	[BaseType (typeof(NSObject), Name = "_TtC6camera10ButtonData")]
+	[DisableDefaultCtor]
+	interface ButtonData
+	{
+		// @property (readonly, nonatomic) enum ArxButton button;
+		[Export ("button")]
+		ArxButton Button { get; }
+
+		// @property (readonly, nonatomic) enum ButtonPressDuration press_duration;
+		[Export ("press_duration")]
+		ButtonPressDuration Press_duration { get; }
+
+		// -(instancetype _Nonnull)initWithButton:(enum ArxButton)button press_duration:(enum ButtonPressDuration)press_duration __attribute__((objc_designated_initializer));
+		[Export ("initWithButton:press_duration:")]
+		[DesignatedInitializer]
+		NativeHandle Constructor (ArxButton button, ButtonPressDuration press_duration);
+	}
+
+	// @interface ImuData : NSObject
+	[BaseType (typeof(NSObject), Name = "_TtC6camera7ImuData")]
+	[DisableDefaultCtor]
+	interface ImuData
+	{
+		// @property (copy, nonatomic) NSUUID * _Nullable id;
+		[NullAllowed, Export ("id", ArgumentSemantic.Copy)]
+		NSUuid Id { get; set; }
+
+		// @property (readonly, nonatomic) float acc_x;
+		[Export ("acc_x")]
+		float Acc_x { get; }
+
+		// @property (readonly, nonatomic) float acc_y;
+		[Export ("acc_y")]
+		float Acc_y { get; }
+
+		// @property (readonly, nonatomic) float acc_z;
+		[Export ("acc_z")]
+		float Acc_z { get; }
+
+		// @property (readonly, nonatomic) float gyr_x;
+		[Export ("gyr_x")]
+		float Gyr_x { get; }
+
+		// @property (readonly, nonatomic) float gyr_y;
+		[Export ("gyr_y")]
+		float Gyr_y { get; }
+
+		// @property (readonly, nonatomic) float gyr_z;
+		[Export ("gyr_z")]
+		float Gyr_z { get; }
+
+		// @property (readonly, nonatomic) float mag_x;
+		[Export ("mag_x")]
+		float Mag_x { get; }
+
+		// @property (readonly, nonatomic) float mag_y;
+		[Export ("mag_y")]
+		float Mag_y { get; }
+
+		// @property (readonly, nonatomic) float mag_z;
+		[Export ("mag_z")]
+		float Mag_z { get; }
+
+		// @property (readonly, nonatomic) float temperature;
+		[Export ("temperature")]
+		float Temperature { get; }
+
+		// -(instancetype _Nonnull)initWithAcc_x:(float)acc_x acc_y:(float)acc_y acc_z:(float)acc_z gyr_x:(float)gyr_x gyr_y:(float)gyr_y gyr_z:(float)gyr_z mag_x:(float)mag_x mag_y:(float)mag_y mag_z:(float)mag_z temperature:(float)temperature __attribute__((objc_designated_initializer));
+		[Export ("initWithAcc_x:acc_y:acc_z:gyr_x:gyr_y:gyr_z:mag_x:mag_y:mag_z:temperature:")]
+		[DesignatedInitializer]
+		NativeHandle Constructor (float acc_x, float acc_y, float acc_z, float gyr_x, float gyr_y, float gyr_z, float mag_x, float mag_y, float mag_z, float temperature);
+	}
+
+	// @interface Resolution : NSObject
+	[BaseType (typeof(NSObject), Name = "_TtC6camera10Resolution")]
+	[DisableDefaultCtor]
+	interface Resolution
+	{
+		// @property (readonly, nonatomic) NSInteger width;
+		[Export ("width")]
+		nint Width { get; }
+
+		/https://dev.azure.com/msresearch/SeeingAI/_settings// @property (readonly, nonatomic) NSInteger height;
+		[Export ("height")]
+		nint Height { get; }
+
+		// -(instancetype _Nonnull)initWithWidth:(NSInteger)width height:(NSInteger)height __attribute__((objc_designated_initializer));
+		[Export ("initWithWidth:height:")]
+		[DesignatedInitializer]
+		NativeHandle Constructor (nint width, nint height);
+	}
+}
