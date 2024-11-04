@@ -15,7 +15,6 @@ namespace Arx
   protocol, then [Model] is redundant and will generate code that will never
   be used.
 */
-    [Model]
     [Protocol(Name = "_TtP6camera13ArxHeadsetApi_")]
     interface ArxHeadsetApi
     {
@@ -50,6 +49,8 @@ namespace Arx
         void OnImuDataUpdateWithImuData(ImuData imuData);
     }
 
+    interface IArxHeadsetApi {}
+
     // @interface ArxHeadsetHandler : NSObject
     [BaseType(typeof(NSObject), Name = "_TtC6camera17ArxHeadsetHandler")]
     [DisableDefaultCtor]
@@ -58,7 +59,7 @@ namespace Arx
         // -(instancetype _Nonnull)initWithDelegate:(id<ArxHeadsetApi> _Nonnull)delegate __attribute__((objc_designated_initializer));
         [Export("initWithDelegate:")]
         [DesignatedInitializer]
-        NativeHandle Constructor(ArxHeadsetApi @delegate);
+        NativeHandle Constructor(IArxHeadsetApi @delegate);
 
         // -(void)connect;
         [Export("connect")]
