@@ -2,7 +2,6 @@ using System;
 using Foundation;
 using ObjCRuntime;
 using UIKit;
-using camera;
 
 namespace Arx
 {
@@ -15,13 +14,14 @@ namespace Arx
   the generated interface. If consumers are not supposed to implement this
   protocol, then [Model] is redundant and will generate code that will never
   be used.
-*/[Protocol (Name = "_TtP6camera13ArxHeadsetApi_")]
-	interface ArxHeadsetApi
-	{
-		// @required -(void)onDeviceConnectionErrorWithError:(NSError * _Nonnull)error;
-		[Abstract]
-		[Export ("onDeviceConnectionErrorWithError:")]
-		void OnDeviceConnectionErrorWithError (NSError error);
+*/
+    [Protocol(Name = "_TtP6camera13ArxHeadsetApi_")]
+    interface ArxHeadsetApi
+    {
+        // @required -(void)onDeviceConnectionErrorWithError:(NSError * _Nonnull)error;
+        [Abstract]
+        [Export("onDeviceConnectionErrorWithError:")]
+        void OnDeviceConnectionErrorWithError(NSError error);
 
 		// @required -(void)onDevicePhotoReceivedWithImage:(UIImage * _Nonnull)image frameDescriptor:(Resolution * _Nonnull)frameDescriptor;
 		[Abstract]
@@ -49,15 +49,17 @@ namespace Arx
 		void OnImuDataUpdateWithImuData (ImuData imuData);
 	}
 
-	// @interface ArxHeadsetHandler : NSObject
-	[BaseType (typeof(NSObject), Name = "_TtC6camera17ArxHeadsetHandler")]
-	[DisableDefaultCtor]
-	interface ArxHeadsetHandler
-	{
-		// -(instancetype _Nonnull)initWithDelegate:(id<ArxHeadsetApi> _Nonnull)delegate __attribute__((objc_designated_initializer));
-		[Export ("initWithDelegate:")]
-		[DesignatedInitializer]
-		NativeHandle Constructor (ArxHeadsetApi @delegate);
+    interface IArxHeadsetApi {}
+
+    // @interface ArxHeadsetHandler : NSObject
+    [BaseType(typeof(NSObject), Name = "_TtC6camera17ArxHeadsetHandler")]
+    [DisableDefaultCtor]
+    interface ArxHeadsetHandler
+    {
+        // -(instancetype _Nonnull)initWithDelegate:(id<ArxHeadsetApi> _Nonnull)delegate __attribute__((objc_designated_initializer));
+        [Export("initWithDelegate:")]
+        [DesignatedInitializer]
+        NativeHandle Constructor(IArxHeadsetApi @delegate);
 
 		// -(void)connect;
 		[Export ("connect")]
