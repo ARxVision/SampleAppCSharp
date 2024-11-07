@@ -2,11 +2,9 @@
 
 using ObjCRuntime;
 
-public class ViewModel : IArxHeadsetApi
+public class ViewModel : NSObject, IArxHeadsetApi
 {
     private ArxHeadsetHandler _headsetHandler;
-
-    public NativeHandle Handle { get; private set; }
 
     public ViewModel()
     {
@@ -56,10 +54,4 @@ public class ViewModel : IArxHeadsetApi
     }
     */
 
-    // Implementing the IDisposable interface
-    public void Dispose()
-    {
-        //Dispose(true);
-        GC.SuppressFinalize(this);
-    }
 }
