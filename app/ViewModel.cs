@@ -13,6 +13,7 @@ public class ViewModel : NSObject, IArxHeadsetApi
         _headsetHandler = new ArxHeadsetHandler(this);
         this.label = label;
         this.imageView = image;
+        _headsetHandler.MjpegUrlString = "http://127.0.0.1:8081/stream";
     }
 
     // Implement the IArxHeadsetApi methods here

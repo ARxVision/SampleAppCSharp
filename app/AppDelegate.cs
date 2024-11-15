@@ -21,7 +21,7 @@ public class AppDelegate : UIApplicationDelegate
         var newLabel = new UILabel(new CGRect(50, 200, 250, 50))
         {
             Text = "Status: Disconnected",
-            TextAlignment = UITextAlignment.Center,
+            TextAlignment = UITextAlignment.Left,
             BackgroundColor = UIColor.SystemPink
         };
 
