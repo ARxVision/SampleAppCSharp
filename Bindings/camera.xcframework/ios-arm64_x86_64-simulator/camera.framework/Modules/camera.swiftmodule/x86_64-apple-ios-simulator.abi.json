@@ -7151,14 +7151,14 @@
       "kind": "StringLiteral",
       "offset": 2614,
       "length": 24,
-      "value": "\"ws:\/\/127.0.0.1:5000\/ws\""
+      "value": "\"ws:\/\/127.0.0.1:8081\/ws\""
     },
     {
       "filePath": "\/Users\/carolineanderson\/Downloads\/headsetSDKiOSPrivate-0.3\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
       "offset": 2670,
       "length": 30,
-      "value": "\"http:\/\/127.0.0.1:5000\/stream\""
+      "value": "\"http:\/\/127.0.0.1:8081\/stream\""
     },
     {
       "filePath": "\/Users\/carolineanderson\/Downloads\/headsetSDKiOSPrivate-0.3\/camera\/ArxHeadsetHandler.swift",
