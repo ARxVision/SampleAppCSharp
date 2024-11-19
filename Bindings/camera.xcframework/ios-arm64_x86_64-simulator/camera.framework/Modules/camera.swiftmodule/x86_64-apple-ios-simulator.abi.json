@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "camera",
-    "printedName": "camera",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
     "children": [
       {
         "kind": "Import",
@@ -103,22 +103,6 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
         ]
       },
       {
@@ -185,7 +169,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "(any camera.AudioDeviceConnectionDelegate)?"
+                "printedName": "camera.AudioDeviceConnectionDelegate?"
               }
             ],
             "declKind": "Var",
@@ -209,12 +193,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any camera.AudioDeviceConnectionDelegate)?",
+                    "printedName": "camera.AudioDeviceConnectionDelegate?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AudioDeviceConnectionDelegate",
-                        "printedName": "any camera.AudioDeviceConnectionDelegate",
+                        "printedName": "camera.AudioDeviceConnectionDelegate",
                         "usr": "s:6camera29AudioDeviceConnectionDelegateP"
                       }
                     ],
@@ -242,12 +226,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any camera.AudioDeviceConnectionDelegate)?",
+                    "printedName": "camera.AudioDeviceConnectionDelegate?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AudioDeviceConnectionDelegate",
-                        "printedName": "any camera.AudioDeviceConnectionDelegate",
+                        "printedName": "camera.AudioDeviceConnectionDelegate",
                         "usr": "s:6camera29AudioDeviceConnectionDelegateP"
                       }
                     ],
@@ -853,20 +837,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "ObservableObject",
             "printedName": "ObservableObject",
             "children": [
@@ -961,12 +931,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(camera.MjpegVideoError.Type) -> (any Swift.Error) -> camera.MjpegVideoError",
+                "printedName": "(camera.MjpegVideoError.Type) -> (Swift.Error) -> camera.MjpegVideoError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(any Swift.Error) -> camera.MjpegVideoError",
+                    "printedName": "(Swift.Error) -> camera.MjpegVideoError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -977,7 +947,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "any Swift.Error",
+                        "printedName": "Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -1089,20 +1059,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -1194,23 +1150,7 @@
         "mangledName": "$s6camera25MjpegVideoHandlerDelegateP",
         "moduleName": "camera",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
+        "sugared_genericSig": "<Self : AnyObject>"
       },
       {
         "kind": "TypeDecl",
@@ -1309,7 +1249,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "(any camera.MjpegVideoHandlerDelegate)?"
+                "printedName": "camera.MjpegVideoHandlerDelegate?"
               }
             ],
             "declKind": "Var",
@@ -1334,12 +1274,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any camera.MjpegVideoHandlerDelegate)?",
+                    "printedName": "camera.MjpegVideoHandlerDelegate?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "MjpegVideoHandlerDelegate",
-                        "printedName": "any camera.MjpegVideoHandlerDelegate",
+                        "printedName": "camera.MjpegVideoHandlerDelegate",
                         "usr": "s:6camera25MjpegVideoHandlerDelegateP"
                       }
                     ],
@@ -1367,12 +1307,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any camera.MjpegVideoHandlerDelegate)?",
+                    "printedName": "camera.MjpegVideoHandlerDelegate?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "MjpegVideoHandlerDelegate",
-                        "printedName": "any camera.MjpegVideoHandlerDelegate",
+                        "printedName": "camera.MjpegVideoHandlerDelegate",
                         "usr": "s:6camera25MjpegVideoHandlerDelegateP"
                       }
                     ],
@@ -1587,12 +1527,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any Swift.Error)?",
+                "printedName": "Swift.Error?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "any Swift.Error",
+                    "printedName": "Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -1652,20 +1592,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1712,13 +1638,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1902,20 +1821,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1963,13 +1868,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -2094,7 +1992,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "any Swift.Decoder",
+                "printedName": "Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2116,20 +2014,6 @@
         ],
         "isEnumExhaustive": true,
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -2584,20 +2468,6 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2637,13 +2507,6 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "BitwiseCopyable",
-                "printedName": "BitwiseCopyable",
-                "usr": "s:s15BitwiseCopyableP",
-                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -2795,20 +2658,6 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2834,13 +2683,6 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "BitwiseCopyable",
-                "printedName": "BitwiseCopyable",
-                "usr": "s:s15BitwiseCopyableP",
-                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -2858,7 +2700,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "any Swift.Decoder",
+                "printedName": "Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2878,20 +2720,6 @@
           "RawDocComment"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -3079,12 +2907,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(camera.WebSocketError.Type) -> (any Swift.Error) -> camera.WebSocketError",
+                "printedName": "(camera.WebSocketError.Type) -> (Swift.Error) -> camera.WebSocketError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(any Swift.Error) -> camera.WebSocketError",
+                    "printedName": "(Swift.Error) -> camera.WebSocketError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3095,7 +2923,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "any Swift.Error",
+                        "printedName": "Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -3167,20 +2995,6 @@
         "moduleName": "camera",
         "isEnumExhaustive": true,
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -3342,23 +3156,7 @@
         "mangledName": "$s6camera24WebSocketHandlerDelegateP",
         "moduleName": "camera",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
+        "sugared_genericSig": "<Self : AnyObject>"
       },
       {
         "kind": "TypeDecl",
@@ -3432,7 +3230,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "(any camera.WebSocketHandlerDelegate)?"
+                "printedName": "camera.WebSocketHandlerDelegate?"
               }
             ],
             "declKind": "Var",
@@ -3457,12 +3255,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any camera.WebSocketHandlerDelegate)?",
+                    "printedName": "camera.WebSocketHandlerDelegate?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WebSocketHandlerDelegate",
-                        "printedName": "any camera.WebSocketHandlerDelegate",
+                        "printedName": "camera.WebSocketHandlerDelegate",
                         "usr": "s:6camera24WebSocketHandlerDelegateP"
                       }
                     ],
@@ -3490,12 +3288,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any camera.WebSocketHandlerDelegate)?",
+                    "printedName": "camera.WebSocketHandlerDelegate?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WebSocketHandlerDelegate",
-                        "printedName": "any camera.WebSocketHandlerDelegate",
+                        "printedName": "camera.WebSocketHandlerDelegate",
                         "usr": "s:6camera24WebSocketHandlerDelegateP"
                       }
                     ],
@@ -3861,7 +3659,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "any Swift.Error",
+                "printedName": "Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -3897,12 +3695,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any Swift.Error)?",
+                "printedName": "Swift.Error?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "any Swift.Error",
+                    "printedName": "Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -3962,20 +3760,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4022,13 +3806,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4071,7 +3848,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "any Swift.Error",
+                "printedName": "Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -4253,22 +4030,6 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
         ]
       },
       {
@@ -4452,20 +4213,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4728,46 +4475,6 @@
             "fixedbinaryorder": 4
           },
           {
-            "kind": "Var",
-            "name": "description",
-            "printedName": "description",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6camera9ArxButtonO11descriptionSSvp",
-            "mangledName": "$s6camera9ArxButtonO11descriptionSSvp",
-            "moduleName": "camera",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6camera9ArxButtonO11descriptionSSvg",
-                "mangledName": "$s6camera9ArxButtonO11descriptionSSvg",
-                "moduleName": "camera",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -4838,66 +4545,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Var",
-            "name": "allCases",
-            "printedName": "allCases",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[camera.ArxButton]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ArxButton",
-                    "printedName": "camera.ArxButton",
-                    "usr": "c:@M@camera@E@ArxButton"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6camera9ArxButtonO8allCasesSayACGvpZ",
-            "mangledName": "$s6camera9ArxButtonO8allCasesSayACGvpZ",
-            "moduleName": "camera",
-            "static": true,
-            "implicit": true,
-            "declAttributes": [
-              "Nonisolated"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[camera.ArxButton]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ArxButton",
-                        "printedName": "camera.ArxButton",
-                        "usr": "c:@M@camera@E@ArxButton"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6camera9ArxButtonO8allCasesSayACGvgZ",
-                "mangledName": "$s6camera9ArxButtonO8allCasesSayACGvgZ",
-                "moduleName": "camera",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
           }
         ],
         "declKind": "Enum",
@@ -4910,20 +4557,6 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4959,23 +4592,151 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
-          },
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ArxButtonHelper",
+        "printedName": "ArxButtonHelper",
+        "children": [
           {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CaseIterable",
-            "printedName": "CaseIterable",
+            "kind": "Function",
+            "name": "description",
+            "printedName": "description(for:)",
             "children": [
               {
-                "kind": "TypeWitness",
-                "name": "AllCases",
-                "printedName": "AllCases",
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArxButton",
+                "printedName": "camera.ArxButton",
+                "usr": "c:@M@camera@E@ArxButton"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@camera@objc(cs)ArxButtonHelper(cm)descriptionFor:",
+            "mangledName": "$s6camera15ArxButtonHelperC11description3forSSAA0bC0O_tFZ",
+            "moduleName": "camera",
+            "static": true,
+            "objc_name": "descriptionFor:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "button",
+            "printedName": "button(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@camera@objc(cs)ArxButtonHelper(cm)buttonFrom:",
+            "mangledName": "$s6camera15ArxButtonHelperC6button4fromSo8NSNumberCSgSS_tFZ",
+            "moduleName": "camera",
+            "static": true,
+            "objc_name": "buttonFrom:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allValues",
+            "printedName": "allValues()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.NSNumber]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@camera@objc(cs)ArxButtonHelper(cm)allValues",
+            "mangledName": "$s6camera15ArxButtonHelperC9allValuesSaySo8NSNumberCGyFZ",
+            "moduleName": "camera",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[camera.ArxButton]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArxButton",
+                    "printedName": "camera.ArxButton",
+                    "usr": "c:@M@camera@E@ArxButton"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6camera15ArxButtonHelperC8allCasesSayAA0bC0OGvpZ",
+            "mangledName": "$s6camera15ArxButtonHelperC8allCasesSayAA0bC0OGvpZ",
+            "moduleName": "camera",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4991,11 +4752,109 @@
                     ],
                     "usr": "s:Sa"
                   }
-                ]
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6camera15ArxButtonHelperC8allCasesSayAA0bC0OGvgZ",
+                "mangledName": "$s6camera15ArxButtonHelperC8allCasesSayAA0bC0OGvgZ",
+                "moduleName": "camera",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ArxButtonHelper",
+                "printedName": "camera.ArxButtonHelper",
+                "usr": "c:@M@camera@objc(cs)ArxButtonHelper"
               }
             ],
-            "usr": "s:s12CaseIterableP",
-            "mangledName": "$ss12CaseIterableP"
+            "declKind": "Constructor",
+            "usr": "c:@M@camera@objc(cs)ArxButtonHelper(im)init",
+            "mangledName": "$s6camera15ArxButtonHelperCACycfc",
+            "moduleName": "camera",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@camera@objc(cs)ArxButtonHelper",
+        "mangledName": "$s6camera15ArxButtonHelperC",
+        "moduleName": "camera",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -5171,20 +5030,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5225,6 +5070,143 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ButtonPressDurationHelper",
+        "printedName": "ButtonPressDurationHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "duration",
+            "printedName": "duration(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@camera@objc(cs)ButtonPressDurationHelper(cm)durationFrom:",
+            "mangledName": "$s6camera25ButtonPressDurationHelperC8duration4fromSo8NSNumberCSgSS_tFZ",
+            "moduleName": "camera",
+            "static": true,
+            "objc_name": "durationFrom:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonPressDurationHelper",
+                "printedName": "camera.ButtonPressDurationHelper",
+                "usr": "c:@M@camera@objc(cs)ButtonPressDurationHelper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@camera@objc(cs)ButtonPressDurationHelper(im)init",
+            "mangledName": "$s6camera25ButtonPressDurationHelperCACycfc",
+            "moduleName": "camera",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@camera@objc(cs)ButtonPressDurationHelper",
+        "mangledName": "$s6camera25ButtonPressDurationHelperC",
+        "moduleName": "camera",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -5976,7 +5958,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "any Swift.Decoder",
+                "printedName": "Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6013,20 +5995,6 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6187,7 +6155,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(button:press_duration:)",
+            "printedName": "init(from:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6197,25 +6165,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "ArxButton",
-                "printedName": "camera.ArxButton",
-                "usr": "c:@M@camera@E@ArxButton"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ButtonPressDuration",
-                "printedName": "camera.ButtonPressDuration",
-                "usr": "c:@M@camera@E@ButtonPressDuration"
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@camera@objc(cs)ButtonData(im)initWithButton:press_duration:",
-            "mangledName": "$s6camera10ButtonDataC6button14press_durationAcA03ArxB0O_AA0B13PressDurationOtcfc",
+            "usr": "s:6camera10ButtonDataC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6camera10ButtonDataC4fromACs7Decoder_p_tKcfc",
             "moduleName": "camera",
             "declAttributes": [
-              "AccessControl",
-              "ObjC"
+              "Required",
+              "AccessControl"
             ],
+            "throwing": true,
             "init_kind": "Designated"
           },
           {
@@ -6243,35 +6206,6 @@
               "Override"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ButtonData",
-                "printedName": "camera.ButtonData",
-                "usr": "c:@M@camera@objc(cs)ButtonData"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:6camera10ButtonDataC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s6camera10ButtonDataC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "camera",
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -6295,20 +6229,6 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6374,7 +6294,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "(any camera.ArxHeadsetApi)?"
+                "printedName": "camera.ArxHeadsetApi?"
               }
             ],
             "declKind": "Var",
@@ -6398,12 +6318,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any camera.ArxHeadsetApi)?",
+                    "printedName": "camera.ArxHeadsetApi?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ArxHeadsetApi",
-                        "printedName": "any camera.ArxHeadsetApi",
+                        "printedName": "camera.ArxHeadsetApi",
                         "usr": "c:@M@camera@objc(pl)ArxHeadsetApi"
                       }
                     ],
@@ -6431,12 +6351,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any camera.ArxHeadsetApi)?",
+                    "printedName": "camera.ArxHeadsetApi?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ArxHeadsetApi",
-                        "printedName": "any camera.ArxHeadsetApi",
+                        "printedName": "camera.ArxHeadsetApi",
                         "usr": "c:@M@camera@objc(pl)ArxHeadsetApi"
                       }
                     ],
@@ -6486,7 +6406,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ArxHeadsetApi",
-                "printedName": "any camera.ArxHeadsetApi",
+                "printedName": "camera.ArxHeadsetApi",
                 "usr": "c:@M@camera@objc(pl)ArxHeadsetApi"
               }
             ],
@@ -6788,20 +6708,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6856,137 +6762,774 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/AudioDeviceConnectionManager.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/AudioDeviceConnectionManager.swift",
       "kind": "Array",
       "offset": 570,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/AudioDeviceConnectionManager.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/AudioDeviceConnectionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 689,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/MjpegVideoHandler.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/AudioDeviceConnectionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2485,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/AudioDeviceConnectionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2686,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/AudioDeviceConnectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3161,
+      "length": 10,
+      "value": "\"portType\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/AudioDeviceConnectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3219,
+      "length": 10,
+      "value": "\"portName\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/AudioDeviceConnectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3268,
+      "length": 5,
+      "value": "\"uid\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
       "kind": "StringLiteral",
       "offset": 678,
       "length": 31,
       "value": "\"com.example.MjpegVideoHandler\""
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/MjpegVideoHandler.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 12,
       "value": "\"networking\""
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/MjpegVideoHandler.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
       "kind": "FloatLiteral",
       "offset": 782,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/WebSocket.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 899,
+      "length": 27,
+      "value": "\"Invalid URL: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 925,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1044,
+      "length": 56,
+      "value": "\"Starting stream from: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1099,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 17,
+      "value": "\"Stopping stream\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
+      "kind": "Array",
+      "offset": 1795,
+      "length": 12,
+      "value": "[0xFF, 0xD8]"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
+      "kind": "Array",
+      "offset": 1859,
+      "length": 12,
+      "value": "[0xFF, 0xD9]"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
+      "kind": "Array",
+      "offset": 2175,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3211,
+      "length": 59,
+      "value": "\"Stream encountered an error: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3269,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3461,
+      "length": 31,
+      "value": "\"Stream completed unexpectedly\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/MjpegVideoHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 17,
+      "value": "\"camera.MjpegVideoHandler\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
       "kind": "StringLiteral",
       "offset": 131,
       "length": 8,
       "value": "\"button\""
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/WebSocket.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
       "kind": "StringLiteral",
       "offset": 155,
       "length": 5,
       "value": "\"imu\""
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/WebSocket.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 131,
+      "length": 8,
+      "value": "\"button\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 5,
+      "value": "\"imu\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
       "kind": "StringLiteral",
       "offset": 2372,
       "length": 30,
       "value": "\"com.example.WebSocketHandler\""
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/WebSocket.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
       "kind": "StringLiteral",
       "offset": 2414,
       "length": 12,
       "value": "\"networking\""
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/WebSocket.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
       "kind": "FloatLiteral",
       "offset": 2475,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/ArxHeadsetHandler.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 2592,
+      "length": 27,
+      "value": "\"Invalid URL: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 2618,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 2731,
+      "length": 66,
+      "value": "\"Attempting to connect to WebSocket at \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 2796,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 3178,
+      "length": 26,
+      "value": "\"WebSocket strean stopped\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 3426,
+      "length": 35,
+      "value": "\"Failed to convert message to data\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 3692,
+      "length": 40,
+      "value": "\"Successfully decoded WebSocket message\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 3856,
+      "length": 54,
+      "value": "\"Decoding error: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 3909,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 4014,
+      "length": 48,
+      "value": "\"Unexpected error: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 4061,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 4287,
+      "length": 21,
+      "value": "\"WebSocket connected\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 4571,
+      "length": 96,
+      "value": "\"WebSocket disconnected with code: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 4627,
+      "length": 1,
+      "value": "\", reason: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 4666,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 4736,
+      "length": 16,
+      "value": "\"WebSocketError\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 5306,
+      "length": 62,
+      "value": "\"WebSocket encountered an error: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 5367,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 5935,
+      "length": 59,
+      "value": "\"WebSocket task timed out: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 5993,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 6178,
+      "length": 67,
+      "value": "\"WebSocket cannot connect to host: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 6244,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 6441,
+      "length": 68,
+      "value": "\"WebSocket network connection lost: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 6508,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 6706,
+      "length": 74,
+      "value": "\"WebSocket not connected to the internet: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 6779,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 6947,
+      "length": 76,
+      "value": "\"WebSocket encountered an unexpected error: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 7022,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 7179,
+      "length": 73,
+      "value": "\"WebSocket task completed without an error but with an unexpected state.\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 7356,
+      "length": 16,
+      "value": "\"WebSocketError\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 755,
+      "offset": 7380,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 7422,
+      "length": 24,
+      "value": "\"Unexpected error state\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 7797,
+      "length": 32,
+      "value": "\"Received text message: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 7828,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 8306,
+      "length": 37,
+      "value": "\"Received unsupported binary message\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 8707,
+      "length": 39,
+      "value": "\"WebSocket receive operation timed out\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 8908,
+      "length": 67,
+      "value": "\"Failed to receive WebSocket message: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 8974,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/WebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 2136,
+      "length": 16,
+      "value": "\"camera.WebSocketHandler\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 463,
+      "length": 10,
+      "value": "\"camera.Resolution\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 712,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/ArxHeadsetHandler.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 771,
+      "offset": 728,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/ArxHeadsetHandler.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 789,
+      "offset": 746,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/ArxHeadsetHandler.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 807,
+      "offset": 764,
       "length": 10,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/ArxHeadsetHandler.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1187,
+      "offset": 712,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 728,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 746,
+      "length": 8,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 764,
+      "length": 10,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 959,
+      "length": 8,
+      "value": "\"Square\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 997,
+      "length": 8,
+      "value": "\"Circle\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1037,
+      "length": 10,
+      "value": "\"Triangle\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1079,
+      "length": 10,
+      "value": "\"VolumeUp\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1123,
+      "length": 12,
+      "value": "\"VolumeDown\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1287,
+      "length": 8,
+      "value": "\"square\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1364,
+      "length": 8,
+      "value": "\"circle\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1441,
+      "length": 10,
+      "value": "\"triangle\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1522,
+      "length": 10,
+      "value": "\"volumeup\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1603,
+      "length": 12,
+      "value": "\"volumedown\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2456,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/ArxHeadsetHandler.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2456,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2531,
+      "offset": 2645,
+      "length": 7,
+      "value": "\"short\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2726,
+      "length": 6,
+      "value": "\"long\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2865,
+      "length": 7,
+      "value": "\"camera.ImuData\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4314,
+      "length": 29,
+      "value": "\"Invalid button string value\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4956,
+      "length": 37,
+      "value": "\"Invalid press duration string value\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3576,
+      "length": 10,
+      "value": "\"camera.ButtonData\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5538,
       "length": 24,
       "value": "\"com.yourapp.arxheadset\""
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/ArxHeadsetHandler.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2567,
+      "offset": 5574,
       "length": 19,
       "value": "\"ArxHeadsetHandler\""
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/ArxHeadsetHandler.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2727,
+      "offset": 5734,
       "length": 25,
       "value": "\"ws:\/\/172.16.0.1:8081\/ws\""
     },
     {
-      "filePath": "\/Users\/dharmendras\/Documents\/apparx\/sample\/camera\/ArxHeadsetHandler.swift",
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2784,
+      "offset": 5791,
       "length": 31,
-      "value": "\"http:\/\/172.16.0.1:8090\/stream\""
+      "value": "\"http:\/\/172.16.0.1:8081\/stream\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6307,
+      "length": 89,
+      "value": "\"Connecting to WebSocket at \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6352,
+      "length": 3,
+      "value": "\" and MJPEG stream at \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6395,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6543,
+      "length": 47,
+      "value": "\"Disconnecting from WebSocket and MJPEG stream\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6721,
+      "length": 21,
+      "value": "\"WebSocket connected\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7318,
+      "length": 25,
+      "value": "\"webSocketDidReceiveData\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7867,
+      "length": 48,
+      "value": "\"WebSocket error: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7914,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8150,
+      "length": 44,
+      "value": "\"MJPEG error: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8193,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5265,
+      "length": 17,
+      "value": "\"camera.ArxHeadsetHandler\""
     }
   ]
 }

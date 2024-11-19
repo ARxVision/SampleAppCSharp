@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios17.3 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name camera
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios17.3 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name camera
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Combine
 import Foundation
@@ -62,24 +62,27 @@ public protocol AudioDeviceConnectionDelegate : AnyObject {
   @objc public init(width: Swift.Int, height: Swift.Int)
   @objc deinit
 }
-@objc public enum ArxButton : Swift.Int, Swift.RawRepresentable, Swift.Decodable, Swift.CaseIterable {
+@objc public enum ArxButton : Swift.Int {
   case square
   case circle
   case triangle
   case volumeUp
   case volumeDown
-  public var description: Swift.String {
-    get
-  }
   public init?(rawValue: Swift.Int)
-  public typealias AllCases = [camera.ArxButton]
   public typealias RawValue = Swift.Int
-  nonisolated public static var allCases: [camera.ArxButton] {
-    get
-  }
   public var rawValue: Swift.Int {
     get
   }
+}
+@_inheritsConvenienceInitializers @objc public class ArxButtonHelper : ObjectiveC.NSObject {
+  @objc public static func description(for button: camera.ArxButton) -> Swift.String
+  @objc public static func button(from string: Swift.String) -> Foundation.NSNumber?
+  @objc public static func allValues() -> [Foundation.NSNumber]
+  public static var allCases: [camera.ArxButton] {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
 }
 @objc public enum ButtonPressDuration : Swift.Int, Swift.Decodable {
   case short
@@ -89,6 +92,11 @@ public protocol AudioDeviceConnectionDelegate : AnyObject {
   public var rawValue: Swift.Int {
     get
   }
+}
+@_inheritsConvenienceInitializers @objc public class ButtonPressDurationHelper : ObjectiveC.NSObject {
+  @objc public static func duration(from string: Swift.String) -> Foundation.NSNumber?
+  @objc override dynamic public init()
+  @objc deinit
 }
 @objc @objcMembers public class ImuData : ObjectiveC.NSObject, Swift.Decodable {
   @objc public var id: Foundation.UUID?
@@ -103,9 +111,8 @@ public protocol AudioDeviceConnectionDelegate : AnyObject {
 @objc @objcMembers public class ButtonData : ObjectiveC.NSObject, Swift.Decodable {
   @objc final public let button: camera.ArxButton
   @objc final public let press_duration: camera.ButtonPressDuration
-  @objc public init(button: camera.ArxButton, press_duration: camera.ButtonPressDuration)
-  @objc deinit
   required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
 }
 @objc public class ArxHeadsetHandler : ObjectiveC.NSObject {
   @objc public init(delegate: any camera.ArxHeadsetApi)
@@ -115,6 +122,7 @@ public protocol AudioDeviceConnectionDelegate : AnyObject {
 }
 extension camera.ArxButton : Swift.Equatable {}
 extension camera.ArxButton : Swift.Hashable {}
+extension camera.ArxButton : Swift.RawRepresentable {}
 extension camera.ButtonPressDuration : Swift.Equatable {}
 extension camera.ButtonPressDuration : Swift.Hashable {}
 extension camera.ButtonPressDuration : Swift.RawRepresentable {}
