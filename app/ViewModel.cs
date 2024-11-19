@@ -49,8 +49,8 @@ public class ViewModel : NSObject, IArxHeadsetApi
     public void OnButtonClickedWithButton(ArxButton button, bool isLongPress)
     {
         // Handle the button click
-        this.label.Text = "Button clicked";
-        Console.WriteLine("SeeingAI-Arx button clicked");
+        this.label.Text = "Button clicked: " + button + "isLongPress=" + isLongPress;
+        Console.WriteLine("SeeingAI-Arx button clicked"+ button +"isLongPress=" +isLongPress);
     }
 
     public void OnDisconnect()
