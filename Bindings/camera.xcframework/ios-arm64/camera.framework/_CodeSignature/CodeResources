@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		0CiQpnqVlgveWmw5YWMATVNq1Ic=
+		q3oaizinns2HlXrFJedaG9uFRfg=
 		</data>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Vh0hnRQtkM54R3OACt5v/vaSWqw=
+		PMrItrmIdRqyvDVj5SlkRwSmpX8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ShFL7tUxCToW3Dxun9R0IGBgCTYwaM0aPp2VBhqDyK4=
+			oxzqFRfZxeE9HRj4Xbwti/7VSPnAv+MIoyGjksLHDJo=
 			</data>
 		</dict>
 		<key>Modules/camera.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SIIlxJRGgWTWUizl+yZjPe/GkIaoxsxC6U5ETIsKXTc=
+			z8DMPtW39HAk4VMfqDqAsTR0AfdDtMRhjxkPcQvUmco=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

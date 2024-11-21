@@ -6467,6 +6467,55 @@
           },
           {
             "kind": "Function",
+            "name": "setTime",
+            "printedName": "setTime(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6camera17ArxHeadsetHandlerC7setTime10completionyys6ResultOyyts5Error_pGc_tF",
+            "mangledName": "$s6camera17ArxHeadsetHandlerC7setTime10completionyys6ResultOyyts5Error_pGc_tF",
+            "moduleName": "camera",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "webSocketDidConnect",
             "printedName": "webSocketDidConnect(handler:)",
             "children": [
@@ -7305,229 +7354,446 @@
       "kind": "StringLiteral",
       "offset": 959,
       "length": 8,
-      "value": "\"Square\""
+      "value": "\"square\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
       "offset": 997,
       "length": 8,
-      "value": "\"Circle\""
+      "value": "\"circle\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
       "offset": 1037,
       "length": 10,
-      "value": "\"Triangle\""
+      "value": "\"triangle\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
       "offset": 1079,
-      "length": 10,
-      "value": "\"VolumeUp\""
+      "length": 11,
+      "value": "\"volume_up\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1123,
-      "length": 12,
-      "value": "\"VolumeDown\""
+      "offset": 1124,
+      "length": 13,
+      "value": "\"volume_down\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1287,
+      "offset": 1289,
       "length": 8,
       "value": "\"square\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1364,
+      "offset": 1366,
       "length": 8,
       "value": "\"circle\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1441,
+      "offset": 1443,
       "length": 10,
       "value": "\"triangle\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1522,
-      "length": 10,
-      "value": "\"volumeup\""
+      "offset": 1524,
+      "length": 11,
+      "value": "\"volume_up\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1603,
-      "length": 12,
-      "value": "\"volumedown\""
+      "offset": 1606,
+      "length": 13,
+      "value": "\"volume_down\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 2456,
+      "offset": 2460,
       "length": 4,
       "value": "1"
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 2456,
+      "offset": 2460,
       "length": 4,
       "value": "1"
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2645,
+      "offset": 2649,
       "length": 7,
       "value": "\"short\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2726,
+      "offset": 2730,
       "length": 6,
       "value": "\"long\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2865,
+      "offset": 2869,
       "length": 7,
       "value": "\"camera.ImuData\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4314,
+      "offset": 4318,
       "length": 29,
       "value": "\"Invalid button string value\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4956,
+      "offset": 4960,
       "length": 37,
       "value": "\"Invalid press duration string value\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3576,
+      "offset": 3580,
       "length": 10,
       "value": "\"camera.ButtonData\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5538,
+      "offset": 5542,
       "length": 24,
       "value": "\"com.yourapp.arxheadset\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5574,
+      "offset": 5578,
       "length": 19,
       "value": "\"ArxHeadsetHandler\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5734,
-      "length": 25,
-      "value": "\"ws:\/\/172.16.0.1:8081\/ws\""
+      "offset": 5625,
+      "length": 47,
+      "value": "\"ws:\/\/headset-adapter-arx-vision.local:8081\/ws\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5791,
-      "length": 31,
-      "value": "\"http:\/\/172.16.0.1:8081\/stream\""
+      "offset": 5704,
+      "length": 53,
+      "value": "\"http:\/\/headset-adapter-arx-vision.local:8081\/stream\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6307,
+      "offset": 5794,
+      "length": 55,
+      "value": "\"http:\/\/headset-adapter-arx-vision.local:8081\/sys\/time\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6361,
+      "length": 43,
+      "value": "\"Time is set : \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6403,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6556,
       "length": 89,
       "value": "\"Connecting to WebSocket at \""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6352,
+      "offset": 6601,
       "length": 3,
       "value": "\" and MJPEG stream at \""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6395,
+      "offset": 6644,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6543,
+      "offset": 6788,
+      "length": 51,
+      "value": "\"Failed to set time: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6838,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7156,
       "length": 47,
       "value": "\"Disconnecting from WebSocket and MJPEG stream\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6721,
+      "offset": 7396,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7406,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7448,
+      "length": 13,
+      "value": "\"Invalid URL\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7494,
+      "length": 54,
+      "value": "\"Error creating URL: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7547,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7703,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7735,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7775,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7889,
+      "length": 6,
+      "value": "\"time\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8073,
+      "length": 55,
+      "value": "\"Error serializing JSON: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8127,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8365,
+      "length": 51,
+      "value": "\"Error setting time: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8415,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8644,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8654,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8696,
+      "length": 18,
+      "value": "\"Invalid response\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8751,
+      "length": 51,
+      "value": "\"Invalid response: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8801,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8955,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8994,
+      "length": 65,
+      "value": "\"Time set successfully with response: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9058,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9177,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9250,
+      "length": 52,
+      "value": "\"Unexpected status code: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9301,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9339,
+      "length": 68,
+      "value": "\"Failed to set time, HTTP response code: \""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9406,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9642,
       "length": 21,
       "value": "\"WebSocket connected\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7318,
+      "offset": 10239,
       "length": 25,
       "value": "\"webSocketDidReceiveData\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7867,
+      "offset": 10788,
       "length": 48,
       "value": "\"WebSocket error: \""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7914,
+      "offset": 10835,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8150,
+      "offset": 11071,
       "length": 44,
       "value": "\"MJPEG error: \""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8193,
+      "offset": 11114,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/charlesleclercq\/Documents\/Github\/headsetSDKiOSPrivate\/camera\/ArxHeadsetHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5265,
+      "offset": 5269,
       "length": 17,
       "value": "\"camera.ArxHeadsetHandler\""
     }
